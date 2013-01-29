@@ -29,6 +29,7 @@ http://www.youtube.com/watch?v=3TTSCFZqbSQ
 # TODOs
 
 * Tab label of course
+* Tab style/layout configuration
 * Rotation and autoLayouts
 * - (LTTabView*) dequeueReusableTabView;
 * Delegates and data sources
