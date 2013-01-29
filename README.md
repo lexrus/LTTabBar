@@ -14,6 +14,13 @@ It’s a coffee time project aimed at implementing an extensible tab bar control
 * CoreGraphic.framework for drawing vectors
 
 
+# Installation
+
+* Copy LTTabBar to your project
+* Or use [CocoaPods](https://github.com/CocoaPods/CocoaPods) to build the static library:
+```pod 'LTTabBar', :podspec => 'https://raw.github.com/lexrus/LTTabBar/master/LTTabBar.podspec'```
+
+
 # Demo
 
 http://www.youtube.com/watch?v=3TTSCFZqbSQ
