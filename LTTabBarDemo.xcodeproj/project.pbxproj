@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D74E8B78151C50C400D91EA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74E8B77151C50C400D91EA5 /* UIKit.framework */; };
+		D74E8B7A151C50C400D91EA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74E8B79151C50C400D91EA5 /* Foundation.framework */; };
+		D74EC54716B7AD7F0027520E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EC53F16B7AD7F0027520E /* AppDelegate.m */; };
+		D74EC54816B7AD7F0027520E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EC54116B7AD7F0027520E /* DemoViewController.m */; };
+		D74EC54916B7AD7F0027520E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D74EC54216B7AD7F0027520E /* InfoPlist.strings */; };
+		D74EC54A16B7AD7F0027520E /* LTTabBarDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74EC54416B7AD7F0027520E /* LTTabBarDemo-Info.plist */; };
+		D74EC54B16B7AD7F0027520E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EC54616B7AD7F0027520E /* main.m */; };
+		D74EC55316B7ADDE0027520E /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EC54E16B7ADDE0027520E /* LTTabBar.m */; };
+		D74EC55416B7ADDE0027520E /* LTTabVector.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EC55016B7ADDE0027520E /* LTTabVector.m */; };
+		D74EC55516B7ADDE0027520E /* LTTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EC55216B7ADDE0027520E /* LTTabView.m */; };
+		D74EC55716B7AF280027520E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74EC55616B7AF270027520E /* CoreGraphics.framework */; };
+		D74EC55916B7B6D30027520E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D74EC55816B7B6D30027520E /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D74E8B73151C50C400D91EA5 /* LTTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74E8B77151C50C400D91EA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D74E8B79151C50C400D91EA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D74EC53E16B7AD7F0027520E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D74EC53F16B7AD7F0027520E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D74EC54016B7AD7F0027520E /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		D74EC54116B7AD7F0027520E /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		D74EC54316B7AD7F0027520E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D74EC54416B7AD7F0027520E /* LTTabBarDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LTTabBarDemo-Info.plist"; sourceTree = "<group>"; };
+		D74EC54516B7AD7F0027520E /* LTTabBarDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTTabBarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D74EC54616B7AD7F0027520E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D74EC54D16B7ADDE0027520E /* LTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBar.h; sourceTree = "<group>"; };
+		D74EC54E16B7ADDE0027520E /* LTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBar.m; sourceTree = "<group>"; };
+		D74EC54F16B7ADDE0027520E /* LTTabVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabVector.h; sourceTree = "<group>"; };
+		D74EC55016B7ADDE0027520E /* LTTabVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabVector.m; sourceTree = "<group>"; };
+		D74EC55116B7ADDE0027520E /* LTTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabView.h; sourceTree = "<group>"; };
+		D74EC55216B7ADDE0027520E /* LTTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabView.m; sourceTree = "<group>"; };
+		D74EC55616B7AF270027520E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D74EC55816B7B6D30027520E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "LTTabBarDemo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74E8B70151C50C400D91EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74EC55716B7AF280027520E /* CoreGraphics.framework in Frameworks */,
+				D74E8B78151C50C400D91EA5 /* UIKit.framework in Frameworks */,
+				D74E8B7A151C50C400D91EA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74E8B68151C50C400D91EA5 = {
+			isa = PBXGroup;
+			children = (
+				D74EC54C16B7ADDE0027520E /* LTTabBar */,
+				D74EC53D16B7AD7F0027520E /* LTTabBarDemo */,
+				D74E8B76151C50C400D91EA5 /* Frameworks */,
+				D74E8B74151C50C400D91EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74E8B74151C50C400D91EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74E8B73151C50C400D91EA5 /* LTTabBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74E8B76151C50C400D91EA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D74EC55616B7AF270027520E /* CoreGraphics.framework */,
+				D74E8B77151C50C400D91EA5 /* UIKit.framework */,
+				D74E8B79151C50C400D91EA5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D74EC53D16B7AD7F0027520E /* LTTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D74EC55816B7B6D30027520E /* Default-568h@2x.png */,
+				D74EC53E16B7AD7F0027520E /* AppDelegate.h */,
+				D74EC53F16B7AD7F0027520E /* AppDelegate.m */,
+				D74EC54016B7AD7F0027520E /* DemoViewController.h */,
+				D74EC54116B7AD7F0027520E /* DemoViewController.m */,
+				D74EC54216B7AD7F0027520E /* InfoPlist.strings */,
+				D74EC54416B7AD7F0027520E /* LTTabBarDemo-Info.plist */,
+				D74EC54516B7AD7F0027520E /* LTTabBarDemo-Prefix.pch */,
+				D74EC54616B7AD7F0027520E /* main.m */,
+			);
+			path = LTTabBarDemo;
+			sourceTree = "<group>";
+		};
+		D74EC54C16B7ADDE0027520E /* LTTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D74EC54D16B7ADDE0027520E /* LTTabBar.h */,
+				D74EC54E16B7ADDE0027520E /* LTTabBar.m */,
+				D74EC54F16B7ADDE0027520E /* LTTabVector.h */,
+				D74EC55016B7ADDE0027520E /* LTTabVector.m */,
+				D74EC55116B7ADDE0027520E /* LTTabView.h */,
+				D74EC55216B7ADDE0027520E /* LTTabView.m */,
+			);
+			path = LTTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74E8B72151C50C400D91EA5 /* LTTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74E8B8B151C50C400D91EA5 /* Build configuration list for PBXNativeTarget "LTTabBarDemo" */;
+			buildPhases = (
+				D74E8B6F151C50C400D91EA5 /* Sources */,
+				D74E8B70151C50C400D91EA5 /* Frameworks */,
+				D74E8B71151C50C400D91EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTTabBarDemo;
+			productName = LexTabBar;
+			productReference = D74E8B73151C50C400D91EA5 /* LTTabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74E8B6A151C50C400D91EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = LexTang.com;
+			};
+			buildConfigurationList = D74E8B6D151C50C400D91EA5 /* Build configuration list for PBXProject "LTTabBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D74E8B68151C50C400D91EA5;
+			productRefGroup = D74E8B74151C50C400D91EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74E8B72151C50C400D91EA5 /* LTTabBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74E8B71151C50C400D91EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74EC54916B7AD7F0027520E /* InfoPlist.strings in Resources */,
+				D74EC54A16B7AD7F0027520E /* LTTabBarDemo-Info.plist in Resources */,
+				D74EC55916B7B6D30027520E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74E8B6F151C50C400D91EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74EC54716B7AD7F0027520E /* AppDelegate.m in Sources */,
+				D74EC54816B7AD7F0027520E /* DemoViewController.m in Sources */,
+				D74EC54B16B7AD7F0027520E /* main.m in Sources */,
+				D74EC55316B7ADDE0027520E /* LTTabBar.m in Sources */,
+				D74EC55416B7ADDE0027520E /* LTTabVector.m in Sources */,
+				D74EC55516B7ADDE0027520E /* LTTabView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D74EC54216B7AD7F0027520E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74EC54316B7AD7F0027520E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74E8B89151C50C400D91EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D74E8B8A151C50C400D91EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74E8B8C151C50C400D91EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LTTabBarDemo/LTTabBarDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/LTTabBarDemo/LTTabBarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = LTTabBarDemo;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D74E8B8D151C50C400D91EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LTTabBarDemo/LTTabBarDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/LTTabBarDemo/LTTabBarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = LTTabBarDemo;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74E8B6D151C50C400D91EA5 /* Build configuration list for PBXProject "LTTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74E8B89151C50C400D91EA5 /* Debug */,
+				D74E8B8A151C50C400D91EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74E8B8B151C50C400D91EA5 /* Build configuration list for PBXNativeTarget "LTTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74E8B8C151C50C400D91EA5 /* Debug */,
+				D74E8B8D151C50C400D91EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74E8B6A151C50C400D91EA5 /* Project object */;
+}
